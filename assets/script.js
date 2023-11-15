@@ -10,7 +10,7 @@
 // });
 var navlink = document.querySelectorAll('.menulink');
 var typing = new Typed('.role',{
-    strings : ["Full Stack Developer","Software Engineer","Software Developer"],
+    strings : ["Odoo Developer","Python Developer","Software Engineer"],
     loop : true,
     typeSpeed : 80,
     backSpeed : 80,
