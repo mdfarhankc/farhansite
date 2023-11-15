@@ -353,7 +353,7 @@ a{
     }
 }
 .aboutbody .aboutcontainer .aboutimage::after{
-    content: 'DJANGO';
+    content: 'ODOO';
     position: absolute;
     display: flex;
     justify-content: center;
@@ -449,6 +449,29 @@ a{
     width: 80px;
 }
 .skills .skillscontainer .frontend p{
+    color: var(--darktext);
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.skills .skillscontainer .odoo h3{
+    color: var(--darktext);
+    font-weight: bolder;
+    margin-bottom:20px ;    
+    text-align: center;    
+}
+.skills .skillscontainer .odoo .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 280px;
+}
+.skills .skillscontainer .odoo img{
+    height: 80px;
+    width: 80px;
+}
+.skills .skillscontainer .odoo p{
     color: var(--darktext);
     font-family: sans-serif;
     font-size: 15px;
@@ -827,17 +850,22 @@ footer{
 
 .dark .skills .skillscontainer .frontend h3{
     color: var(--maintext);
- 
 }
-
 
 .dark .skills .skillscontainer .frontend p{
     color: var(--maintext);
 
 }
+.dark .skills .skillscontainer .odoo h3{
+    color: var(--maintext);
+}
+
+.dark .skills .skillscontainer .odoo p{
+    color: var(--maintext);
+
+}
 .dark .skills .skillscontainer .backend h3{
     color: var(--maintext);
- 
 
 }
 
@@ -1324,6 +1352,29 @@ footer{
         font-size: 15px;
         text-align: center;
     }
+    .skills .skillscontainer .odoo h3{
+        color: var(--darktext);
+        font-weight: bolder;
+        margin-bottom:20px ;    
+        text-align: center;    
+    }
+    .skills .skillscontainer .odoo .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 280px;
+    }
+    .skills .skillscontainer .odoo img{
+        height: 80px;
+        width: 80px;
+    }
+    .skills .skillscontainer .odoo p{
+        color: var(--darktext);
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
     .skills .skillscontainer .backend h3{
         color: var(--darktext);
         font-weight: bolder;
@@ -1610,6 +1661,7 @@ footer{
         justify-content: space-between;
         align-items: center;
         position: fixed;
+        width:100%;
         z-index: 1;
     }
     .header .navbar{
@@ -1863,7 +1915,7 @@ footer{
         }
     }
     .aboutbody .aboutcontainer .aboutimage::after{
-        content: 'DJANGO';
+        content: 'ODOO';
         position: absolute;
         display: flex;
         justify-content: center;
@@ -1962,6 +2014,32 @@ footer{
         width: 80px;
     }
     .skills .skillscontainer .frontend p{
+        color: var(--darktext);
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-left: 35px;
+        width: 200px;
+        text-align: center;
+    }
+    .skills .skillscontainer .odoo h3{
+        color: var(--darktext);
+        font-weight: bolder;
+        margin-bottom:20px ;
+        font-size: 15px;    
+        text-align: center;    
+    }
+    .skills .skillscontainer .odoo .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 280px;
+    }
+    .skills .skillscontainer .odoo img{
+        height: 80px;
+        width: 80px;
+    }
+    .skills .skillscontainer .odoo p{
         color: var(--darktext);
         font-family: sans-serif;
         font-size: 12px;
